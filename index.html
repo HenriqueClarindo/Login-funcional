@@ -7,25 +7,29 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="wrapper">
-        <form action="" method="post" class="form">
-            <h1 class="title">Inicio</h1>
-            <div class="inp">
-                <input type="text" name="usuario" id="usuario" placeholder="Usuario">
-                <i class=""></i>
-            </div>
-            <div class="inp">
-                <input type="text" name="senha" id="senha" placeholder="senha">
-                <i class=""></i>
-            </div>
-            <button type="submit">Entrar</button>
-            <p class="footer">Não tem conta?<a href="cadastro.html" class="link"></a></p>
-        </form>
 
-        <div class="banner">
-            <h1 class="wel_text">Bem Vindo</h1>
-            <p class="para">Que bom Ver você de novo</p>
+    <div class="main">
+        <div class="wrapper">
+            <form action="backend/login.php" method="post" class="form">
+                <h1 class="title">Inicio</h1>
+                <div class="inp">
+                    <input type="text" class="input" name="usuario" id="usuario" placeholder="Usuario">
+                    <i class=""></i>
+                </div>
+                <div class="inp">
+                    <input type="text" class="input" name="senha" id="senha" placeholder="senha">
+                    <i class=""></i>
+                </div>
+                <button type="submit" class="submit">Entrar</button>
+                <p class="footer">Não tem conta?<a href="cadastro.html" class="link"> Cadastre-se!</a></p>
+            </form>
+    
+            <div class="banner">
+                <h1 class="wel_text">Bem Vindo</h1>
+                <p class="para">Que bom Ver você de novo</p>
+            </div>
         </div>
     </div>
+    
 </body>
 </html>
