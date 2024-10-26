@@ -12,14 +12,16 @@
         <div class="wrapper">
             <form action="backend/login.php" method="post" class="form">
                 <h1 class="title">Inicio</h1>
-                <div class="inp">
-                    <input type="text" class="input" name="usuario" id="usuario" placeholder="Usuario">
-                    <i class=""></i>
+
+                <div class="input-group">
+                    <input required type="email" name="email" id="email" autocomplete="off" class="input">
+                    <label for="firstname" class="user-label">E-mail</label>
                 </div>
-                <div class="inp">
-                    <input type="text" class="input" name="senha" id="senha" placeholder="senha">
-                    <i class=""></i>
+                <div class="input-group">
+                    <input required type="password" name="senha" id="senha" autocomplete="off" class="input">
+                    <label for="lastname" class="user-label">Senha</label>
                 </div>
+                
                 <button type="submit" class="submit">Entrar</button>
                 <p class="footer">Não tem conta?<a href="cadastro.html" class="link"> Cadastre-se!</a></p>
             </form>
