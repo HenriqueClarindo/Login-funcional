@@ -1,9 +1,5 @@
 <?php
-
-    if(!isset($_SESSION)){
-        session_start();
-    }
-
+    include('./backend/protect.php')
 ?>
 
 <!DOCTYPE html>

@@ -77,13 +77,12 @@ body{
     font-size: 35px;
 }
 
-<<<<<<< HEAD
+
 .inp{
     padding-bottom: 10px;
     border-bottom: 2px solid #eee;
 }
-=======
->>>>>>> main
+
 
 .input{
     border: none;
@@ -118,10 +117,9 @@ body{
 .link{
     color: #0ef;
     text-decoration: none;
-<<<<<<< HEAD
+
 }
-=======
-}
+
 
 /*input*/
 /* From Uiverse.io by alexruix */ 
@@ -163,4 +161,4 @@ body{
     padding: 0 .2em;
     color: #2196f3;
 }
->>>>>>> main
+
