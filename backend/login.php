@@ -24,8 +24,9 @@ if(isset($_POST['email']) || isset($_POST['senha'])){
                 session_start();
             }
 
+            $_SESSION['id'] = $usuario['id'];
             $_SESSION['nome'] = $usuario['nome'];
-            $_SESSION['sebrenome'] = $usuario['sobrenome'];
+            $_SESSION['sobrenome'] = $usuario['sobrenome'];
 
             header('Location: ../painel.php');
 
